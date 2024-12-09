@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="shortcut icon" href="public/images/youtube.ico">
+
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+        .righth {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: 900px;
+            margin-top: -15px;
+        }
+
+        ul li {
+            color: aliceblue;
+        }
+
+        li {
+            padding: 10px;
+            font-size: 22px;
+
+        }
+
+
+
+        section {
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+
+        }
+
+
+
+        ul {
+            margin-left: -32px;
+
+            position: sticky;
+        }
+
+        li span {
+            margin-left: 20px;
+            font-family: sans-serif;
+            font-size: 15px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(62, 125, 218);
+            font-size: 16px;
+
+        }
+        .row{ 
+            margin-left:10px ;
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr; 
+            margin-top: 20px;
+            overflow-x: scroll;
+            height: 250px;
+            width: 1000px;
+            gap: -20px;
+        }
+
+        .row::-webkit-scrollbar{
+            display: none;
+        }
+        .b{
+            overflow: scroll;
+            height: 1200px;
+            gap: -20px;
+
+        }
+
+        .b::-webkit-scrollbar{
+            display: none;
+        }
+
+        .row1{
+            margin-left:10px ;
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr; 
+            margin-top: 20px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            height: 260px;
+            width: 1000px;
+         
+
+        }
+
+        .row1::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+</head>
+
+
+
+<body bgcolor="black">
+
+    <header>
+
+        <span class="bi bi-list" style="font-size: 30px; margin-left: 20px; color: aliceblue;"></span>
+        <span class="bi bi-youtube" style="color: red; font-size: 30px; margin-left: 30px;"></span>
+        <span style="font-family:Roboto, Arial, sans-serif ; font-weight:bold; color: aliceblue; font-size: 30px;">
+            Youtube</span>
+        <span
+            style="color: white; border: 1px solid rgb(41, 40, 40); padding-right: 445px; border-radius: 18px;
+                padding-top: 10px;padding-bottom: 10px; margin-left: 120px; margin-top:10px; padding-left: 15px;  font-family: sans-serif;color:grey ; ">Search
+            <span class="bi bi-search"
+                style="border: 1px solid rgb(31, 30, 30); padding: 9px;padding-left: 25px; background-color: rgb(31, 30, 30); color: aliceblue; border-bottom-right-radius: 18px; border-top-right-radius: 18px; padding-right: 22px; margin-right:-450px; margin-left: 400px; text-align: center;"></span>
+        </span>
+        <span class="bi bi-mic-fill"
+            style="color: aliceblue; margin-left:15px ; border-radius: 25px; border: 1px solid rgb(31, 30, 30) ; font-size: 20px; padding:9px; background-color:rgb(31, 30, 30);"></span>
+
+        <p style="font-size: 11px; font-family: sans-serif;  margin-left: 240px; margin-top: -33px; color: grey; ">IN
+        </p>
+        <div class="righth">
+
+            <div class="bi bi-camera-video" style="color: white; font-size: 25px; padding-left: 75px;">
+            </div>
+
+
+
+            <div class="bi bi-bell" style="color: aliceblue;font-size: 25px;  margin-left: -60px;">
+
+            </div>
+            <div
+                style="color: aliceblue; border:1px solid red ; border-radius: 20px;  font-size:13px; background-color: red; margin-left: -106px; margin-bottom: 200px; margin-top: -5px; ">
+                9+</div>
+
+        </div>
+
+        <div
+            style=" color: aliceblue; border:1px solid rebeccapurple ; font-family: sans-serif; border-radius: 90px;  font-size:21px; background-color: rebeccapurple; padding:2px; margin-left:1190px; margin-right: 45px; margin-top: -215px; text-align: center;">
+            R</div>
+
+        <section>
+
+            <nav>
+
+                <ul
+                class="b" style="color: white; list-style-type: none; border-bottom: 1px solid grey; ">
+                    <li class="bi bi-house-door"> <span>Home</span></li>
+
+                    <li class="bi bi-file-play"><span>Shorts</span></li>
+                    <li class="bi bi-tv-fill"><span>Subscription</span> </li>
+
+                    <li>
+                        <div style="border: 1px solid grey;"></div>
+                    </li>
+
+
+                    <li>
+                        <sapn> <b>You</b></sapn> <span class="bi bi-caret-right"></span>
+                    </li>
+                    <li class="bi bi-clock-history"><span>History</span></li>
+                    <li class="bi bi-music-note-list" ;><span>Playists</span> </li>
+                    <li class="bi bi-play-btn"> <span>Your Videos</span></li>
+                    <li class="bi bi-lightbulb"><span>Your Courses</span></li>
+                    <li class="bi bi-clock"><span>Watch later</span></li>
+                    <li class="bi bi-hand-thumbs-up"> <span>Liked videos</span></li>
+
+
+                    <li>
+                        <div style="border: 1px solid grey;"></div>
+                    </li>
+
+
+                    <li>
+                        <b>Subcriptions</b>
+                    </li>
+                    <li>
+                        <img src="public/images/3rd.jpg" width="20"> <span>3RD FLIX</span>
+
+                    </li>
+                    <li><img src="public/images/andrwe.jpg" width="20"><span>Andrew Huber</span></li>
+                    <li><img src="public/images/code with.jpg" width="20"><span>Code With Harry</span> </li>
+                    <li><img src="public/images/chris.jpg" width="20"><span>CHRIS HERIA</span> </li>
+                    <li> <img src="public/images/rj..jpg" width="20"><span>RJ Abhinav</span>
+                    <li>
+                    <li> <img src="public/images/neer.jpg" width="20"><span>Neer Raghu</span></li>
+                    <li> <img src="public/images/yt2.jpg" width="20"><span>UR Christiano</span></li>
+                    <li> <img src="public/images/life.jpg" width="20"><span>Life Unplugged</span></li>
+
+
+
+                    <li>
+                        <div style="border: 1px solid grey;"></div>
+                    </li>
+                    <li>
+                        <sapn> <b>Explore</b></sapn>
+                    </li>
+                    <li class="bi bi-fire"><span>Trending </span></li>
+                    <li class="bi bi-bag-fill" ;><span>Shopping</span></li>
+                    <li class="bi bi-music-note-beamed"><span>Music</span></li>
+                    <li class="bi bi-film"> <span>Movies</span></li>
+                    <li class="bi bi-broadcast"> <span>Live</span></li>
+                    <li class="bi bi-newspaper"><span>News</span></li>
+                    <li class="bi bi-controller"><span>Gaming</span> </li>
+                    <li class="bi bi-trophy"><span>Sports</span></li>
+                    <li class="bi bi-lightbulb"><span>Courses</span></li>
+                    <li class="bi bi-broadcast-pin"> <span>Sports</span></li>
+
+
+                    <li>
+                        <div style="border: 1px solid grey;"></div>
+                    </li>
+
+                    </li>
+                    <li class="bi bi-flag"> <span>Report History</span></li>
+                    <li class="bi bi-question-circle"><span>Help</span></li>
+                    <li class="bi bi-exclamation-square-fill"> <span>Send Feedback</span></li>
+
+
+                    <li>
+                        <div style="border: 1px solid grey;"></div>
+                    </li>
+                    <p> About Press Copyright<br>Contact us Creators<br>Advertise Developers</p>
+                    <p> Terms Privacy Policy &Safety <br>How YouTube works <br> Test new features </p>
+
+                </ul>
+            </nav>
+
+            <main>
+                <div>
+                    <img src="public/images/yt.jpg" alt="" width="1000px"
+                        style="margin-top: 20px; border-radius: 15px;" >
+                </div>
+
+                <div>
+                    <img src="public/images/yt2.jpg" alt="" width="160px"
+                        style="margin-top: 40px; border-radius: 170px;">
+                    <p
+                        style="color: aliceblue; font-size: 38px; font-family: sans-serif; margin-top: -180px; font-weight: bold; margin-left: 175px;">
+                        UR • Cristiano</p>
+                    <p style="color: grey; font-family: sans-serif; margin-top:-30px;  margin-left: 175px;">@cristiano
+                        •
+                        70.4M subscribers
+                        •
+                        75 videos</p>
+                    <p
+                        style="color: grey; font-size: 14px; font-family: sans-serif; margin-top:px ;  margin-left: 175px;">
+                        Welcome to UR Cristiano - the official YouTube channel of Cristiano Ronaldo. SIUUUbscribe! ...
+                        more</p>
+                    <p
+                        style="color: aliceblue; font-size: 14px; font-family: sans-serif; margin-top: -20pxpx;  margin-left: 175px;">
+                        <a href="instagram.com/cristiano">instagram.com/cristiano</a> and 3 more links
+                    </p>
+                    <span class="bi bi-bell-fill"
+                        style=" font-family:sans-serif; border:1px solid grey; padding: 8px; border-radius: 20px; background-color: rgb(41, 40, 40); font-size:15px; color:aliceblue; margin-left: 175px; ">
+                        subscribe <span class="bi bi-arrow-down"></span>
+                </div>
+
+                <div
+                    style="color:gray; margin-top:40px ; margin-left: 30px; ; font-family: sans-serif; font-size: 20px; padding: 10px; padding-bottom: 10px; justify-content: space-around;">
+
+                    <span style="padding-right: 10px; font-size: 18px;">Home</span>
+                    <span style="padding-right: 10px;">Videos</span>
+                    <span style="padding-right: 10px;">Shorts</span>
+                    <span style="padding-right: 10px;">Podcasts</span>
+                    <span style="padding-right: 10px;">Playlists</span>
+                    <span style="padding-right: 10px;">Community</span>
+                    <span style="padding-right: 10px;" class="bi bi-search"></span>
+                    <div style="border: 1px  solid grey; margin-top: 10px;"></div>
+                </div>
+
+                
+                    <div
+                        style="color: aliceblue; margin-left: 60px; margin-top: 16px; font-size: 20px; font-family:sans-serif ; font-weight: bold;">
+                        Videos
+                    </div>
+
+                    <div class="row">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/aDF_ESN80r8?si=MbT0EDDL3VLQZrsN"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px;  border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>I Meet MrBeast To Break The Internet!!</b> <span class="bi bi-three-dots-vertical" style="margin-left: px;"></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                14M views 18 hours ago</p>
+                        </div>
+
+
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/E0dVHmWucZY?si=oyOoQNfwNAgndp6p"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>I Went To Cristiano's..</b> <span class="bi bi-three-dots-vertical" style="margin-left: 100px;"></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                10M views 22 hours ago</p>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/PX8ykesLfSE?si=bcGBN9Wd9bAF2xmt"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>  Beckham or Giggs?</b> <span class="bi bi-three-dots-vertical" style="margin-left: 100px;"></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                2.9M views
+1 month ago</p>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/IgS9lBdpvT0?si=XO-YGu515PG9jFPb"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                           <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>Georgina Tricks Me Into ..</b> <span class="bi bi-three-dots-vertical" style="margin-left:60px;" ></span></p>
+                           <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                            2.6M views
+1 month ago</p>
+
+
+                           <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                2.6M views
+1 month ago</p>
+                    </div>
+
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/KWlnfCZeN74?si=19FgpCPuwfs_oIQG"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>And My New Guest Is…</b> <span class="bi bi-three-dots-vertical" style="margin-left: 80px;"></span></p>
+                            <p style="color: grey;  margin-left:20px; font-family: sans-serif;font-size: 13px;  ">
+                                6.8M views
+                                3 months ago</p>
+                    </div>
+
+
+                </div>
+
+                    <div style="border: 1px solid grey; margin-top: 20px; margin-left: 40px;"></div>
+
+                </div>
+                
+                
+                    <div
+                style="color: aliceblue; margin-left: 60px; margin-top: 16px; font-size: 20px; font-family:sans-serif ; font-weight: bold;">
+                UR Cristiano <span class="bi bi-play-fill" style="font-weight: normal;font-family: sans-serif;">play all</span>
+            </div>
+
+                <div class="row1">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/WAz6enaA9nE?si=bF3mtzQt3Wykn80_"
+                        
+                            style="margin-top: 25px; width: 260px; margin-left: 10px;  border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>This is how Manchester.</b> <span class="bi bi-three-dots-vertical" style="margin-left: 80px;"></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                UR · Cristiano
+                            </p>
+                            <p>8.8M views
+                                2 months ago</p>
+                        </div>
+
+
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/55U2mLxARC4?si=3GwIKeOPWH1-YOAD"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>It's not what everyone thinks...</b> <span class="bi bi-three-dots-vertical" style="margin-left: 45px;"></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                14M views 18 hours ago</p>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/UyV8pwPpLJQ?si=ZyqcTnT3vziotVen"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b> The REAL REASON Real Madrid ALWAYS win Champions League</b> <span class="bi bi-three-dots-vertical"></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                14M views 18 hours ago</p>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/IgS9lBdpvT0?si=XO-YGu515PG9jFPb"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>Georgina Tricks Me Into ..</b> <span class="bi bi-three-dots-vertical" style="margin-left:60px;" ></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                14M views 18 hours ago</p>
+                    </div>
+
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/KWlnfCZeN74?si=19FgpCPuwfs_oIQG"
+                            style="margin-top: 25px; width: 260px; margin-left: 10px; border-radius: 15px;"></iframe>
+                            <p style="color: aliceblue; margin-left: 20px; font-family: sans-serif;font-size: 13px; "> <b>And My New Guest Is…</b> <span class="bi bi-three-dots-vertical" style="margin-left: 80px;"></span></p>
+                            <p style="color: grey;  margin-left: 20px; font-family: sans-serif;font-size: 13px;  ">
+                                14M views 18 hours ago</p>
+                    </div>
+
+
+                </div>
+
+                    <div style="border: 1px solid grey; margin-top: 20px; margin-left: 40px;"></div>
+
+                </div>
+            </main>
+
+
+
+
+        </section>
+    </header>
+
+</body>
+
+</html>
